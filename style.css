@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 95%;
+    margin:auto;
+   
+}
+.like-btn{
+    color:black;
+}
+a{
+text-decoration: none;
+color: black;
+}
+a:visited{
+    color: black;
+}
+ul{
+    list-style: none;
+}
+
+i{
+    padding:5px;
+    align-self: center;
+}
+i:hover{
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+
+.logo{
+    display: flex;
+  align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+     width:50%;
+     align-items: center;
+     margin: 1px;
+}
+
+li :hover{
+    background-color: grey;
+    color:white;
+    border-radius: 10%;
+padding:10px;
+text-align: center;
+    }
+
+.total-price{
+    padding: 15px;
+    position: sticky;
+    top:60px;
+    background-color: white;
+}
+
+header{
+    position: sticky;
+    top:0;
+}
+
+.item-container{
+ 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 50px auto;
+    border-top: 0.1px rgb(218, 215, 215) solid;
+    background-image: linear-gradient(rgb(250, 249, 249), white);
+}
+
+.item-image{
+    height: 65vh;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.description h2{
+    text-decoration: underline;
+    color:rgb(99, 3, 3)
+}
+.item-react{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.number-items{
+    padding: 5px;
+    align-self: center;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin:200px 0px 20px 0px;
+}

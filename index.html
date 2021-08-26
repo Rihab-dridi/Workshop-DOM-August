@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SHOPPING CART</title>
+    <link rel="icon" href="./images/shopping.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- navbar -->
+      <div class="logo">
+        <img src="images/shopping.png" width="50" height="50" />
+        <h1>Shopping Cart</h1>
+      </div>
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </header>
+    <main>
+      <!--Total Price -->
+      <div class="total-price">
+        <h3>
+          <i class="fas fa-shopping-cart"></i> Total Price: <span id='total' >0</span>$
+        </h3>
+      </div>
+
+      <!--items to manipulate-->
+      <section class="items">
+        <!--first item -->
+        <div class="item-container">
+          <img class="item-image" src="images/camera1.jpeg" alt="camera" />
+
+          <div class="description">
+            <h2>Franka NX-40</h2>
+            <p>
+              Power Source: this camera does not require batteries.<br />
+              Film type: 35mm<br />
+              Skill level: Beginner
+            </p>
+            <div class="item-react">
+              <button class="delete-btn"><i class="fas fa-times"></i></button>
+              <button class="like-btn"><i class="fas fa-heart"></i></button>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="plus-btn"><i class="fas fa-plus"></i></button>
+            <h3 class="number-items">0</h3>
+            <button class="minus-btn"><i class="fas fa-minus"></i></button>
+            <h3><span class='price'>109</span>$</h3>
+          </div>
+        </div>
+
+
+
+
+
+
+
+         <!--second item -->
+         <div class="item-container">
+            <img class="item-image" src="images/camera3.jpeg" alt="camera" />
+  
+            <div class="description">
+              <h2>Halina Pix 35F</h2>
+              <p>
+                Features include:<br />
+                • Built-in flash<br />
+                • Auto focus and exposure<br />
+                • Automatic film advance and re-wind<br />
+              </p>
+              <div class="item-react">
+                <button class="delete-btn"><i class="fas fa-times"></i></button>
+                <button class="like-btn"><i class="fas fa-heart"></i></button>
+              </div>
+            </div>
+  
+            <div class="item">
+              <button class="plus-btn"><i class="fas fa-plus"></i></button>
+              <h3 class="number-items">0</h3>
+              <button class="minus-btn"><i class="fas fa-minus"></i></button>
+              <h3><span class='price' >209</span>$</h3>
+            </div>
+          </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+          <!--third item -->
+          <div class="item-container">
+            <img class="item-image" src="images/camera4.jpeg" alt="camera" />
+  
+            <div class="description">
+              <h2>Sony Alpha 1 Mirrorless Digital Camera</h2>
+              <p>
+                50.1MP* full-frame w/ integral memory<br />
+                8x more powerful*, image processing engine<br />
+                Blackout-free shooting up to 30fps <br />
+                240 fps refresh rate<br />
+                anti-flicker mechanical and electronic <br />
+              </p>
+              <div class="item-react">
+                <button class="delete-btn"><i class="fas fa-times"></i></button>
+                <button class="like-btn"><i class="fas fa-heart"></i></button>
+              </div>
+            </div>
+  
+            <div class="item">
+              <button class="plus-btn"><i class="fas fa-plus"></i></button>
+              <h3 class="number-items">0</h3>
+              <button class="minus-btn"><i class="fas fa-minus"></i></button>
+              <h3><span class='price'>6900</span>$</h3>
+            </div>
+          </div>
+
+
+
+
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <a href="#">
+          <li><i class="fab fa-facebook"> facebook</i></li></a
+        >
+        <a href="#"
+          ><li><i class="fab fa-instagram-square">Instagram</i></li></a
+        >
+        <a href="#"
+          ><li><i class="fab fa-linkedin"> Linkedin</i></li></a
+        >
+        <a href="#"
+          ><li><i class="fab fa-twitter"> twitter</i></li></a
+        >
+      </ul>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
